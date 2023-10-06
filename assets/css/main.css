@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.item {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.item-1 {
+    background-color: gray;
+    padding: 7px;
+    border-radius: 100%;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px auto;
+    text-align: center;
+    width: 70%;
+}
+
+.box {
+    border-radius: 10px;
+    width: 200px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+}
+
+.box-1 {
+    background-color: #f3d9de;
+}
+
+.box-2 {
+    background-color: rgba(148, 238, 148, 0.8);
+}
+
+.box-3 {
+    background-color: rgba(224, 224, 98, 0.7);
+}
+
+.box-4 {
+    background-color: rgba(240, 139, 240, 0.5);
+}
+
+h1 {
+    font-size: 60px;
+    margin-top: 30px;
+    position: relative;
+    z-index: 9;
+}
+
+.container-1 {
+    background-color: rgb(223, 233, 234);
+    width: 50%;
+    margin: 50px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.next-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+
+.next-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.progress {
+    background-color: rgb(191, 185, 185);
+    border-radius: 30px;
+    width: 100px;
+    padding: 5px;
+    text-align: end;
+}
+
+.active {
+    background-color: rgb(200, 196, 196);
+    border-radius: 30px;
+    width: 80px;
+    padding: 5px;
+    text-align: end;
+}
+
+hr {
+    height: 5px;
+    background-color: rgb(192, 185, 185);
+    margin: 10px -15px;
+}
+
+.container-2 {
+    background-color: rgb(223, 233, 234);
+    width: 50%;
+    margin: 75px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h4 {
+    margin-left: 20px;
+}
+
+.emoji {
+    margin-right: 30px;
+}
+
+ .box-1 .icon svg {
+    width: 120px;
+    height: 120px;
+    color: rgba(247, 194, 203, 1);
+    position: absolute;
+    top: -30px;
+    right: -25px;
+}
+
+ .box-2 .icon-1 svg {
+    width: 120px;
+    height: 120px;
+    color: rgb(127, 236, 127);
+    position: absolute;
+    top: -30px;
+    right: -25px;
+}
+
+ .box-3 .icon-2 svg {
+    width: 120px;
+    height: 120px;
+    color: rgb(224, 224, 98);
+    position: absolute;
+    top: -22px;
+    right: -28px;
+}
+
+ .box-4 .icon-3 svg {
+    width: 120px;
+    height: 120px;
+    color: rgb(240, 139, 240);
+    position: absolute;
+    top: -30px;
+    right: -28px;
+}
